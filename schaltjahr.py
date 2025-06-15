@@ -3,3 +3,10 @@ def ist_schaltjahr(jahr):
         return True
     else:
         return False
+    
+# Eingaberoutine erstellt
+jahr = int(input("Gib ein Jahr ein: "))
+if ist_schaltjahr(jahr):
+    print(f"{jahr} ist ein Schaltjahr.")
+else:
+    print(f"{jahr} ist kein Schaltjahr.")
